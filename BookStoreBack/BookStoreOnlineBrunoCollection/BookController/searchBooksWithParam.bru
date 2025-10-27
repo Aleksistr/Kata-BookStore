@@ -1,0 +1,24 @@
+meta {
+  name: searchBooksWithParam
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:8080/api/books/search
+  body: none
+  auth: bearer
+}
+
+headers {
+  : 
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QHRlc3QuY29tIiwiaWF0IjoxNzYxNjAzNjk5LCJleHAiOjE3NjE2MDcyOTl9.6EUEav-mkkwo-4RENn5bNyFSFHquu3dkv0G_UX9PRYw
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
