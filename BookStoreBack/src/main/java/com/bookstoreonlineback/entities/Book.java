@@ -3,6 +3,7 @@ package com.bookstoreonlineback.entities;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
+import org.hibernate.annotations.Fetch;
 
 import java.util.List;
 
@@ -24,7 +25,7 @@ public class Book {
     @OneToMany(mappedBy = "book")
     List<CartBook> cartBooks;
 
-    @ManyToOne()
+    @ManyToOne
     @JoinColumn(name = "author_id", nullable = false)
     Author author;
 }

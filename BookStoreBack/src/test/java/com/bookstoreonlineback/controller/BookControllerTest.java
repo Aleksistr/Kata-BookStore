@@ -20,16 +20,13 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@ActiveProfiles("test")
 @SpringBootTest
 @AutoConfigureMockMvc
+@ActiveProfiles("test")
 class BookControllerTest {
 
     @Autowired
     private MockMvc mockMvc;
-
-    @Spy
-    BookServiceImpl bookService;
 
     @Autowired
     private BookRepository bookRepository;
@@ -45,7 +42,7 @@ class BookControllerTest {
         Author author = new Author();
         author.setFirstname("Jean");
         author.setLastname("Dupont");
-        authorRepository.save(author);
+        author = authorRepository.save(author);
 
         bookRepository.save(Book.builder().name("Le feu sacré").price(19.99).author(author).build());
         bookRepository.save(Book.builder().name("Sous la glace").price(14.50).author(author).build());

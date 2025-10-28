@@ -5,9 +5,13 @@ meta {
 }
 
 get {
-  url: http://localhost:8080/api/books/search
+  url: http://localhost:8080/api/books/search?name=pluie
   body: none
   auth: bearer
+}
+
+params:query {
+  name: pluie
 }
 
 headers {

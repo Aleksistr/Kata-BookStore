@@ -1,8 +1,8 @@
 package com.bookstoreonlineback.services.impl;
 
-import com.bookstoreonlineback.DTO.AuthResponseDTO;
-import com.bookstoreonlineback.DTO.LoginRequestDTO;
-import com.bookstoreonlineback.DTO.RegisterRequestDTO;
+import com.bookstoreonlineback.DTO.responses.AuthResponseDTO;
+import com.bookstoreonlineback.DTO.requests.LoginRequestDTO;
+import com.bookstoreonlineback.DTO.requests.RegisterRequestDTO;
 import com.bookstoreonlineback.entities.User;
 import com.bookstoreonlineback.reppositories.UserRepository;
 import com.bookstoreonlineback.security.JwtService;

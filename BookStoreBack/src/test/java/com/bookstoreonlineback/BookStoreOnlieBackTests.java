@@ -1,6 +1,5 @@
 package com.bookstoreonlineback;
 
-import com.bookstoreonlineback.BookStoreOnlineBack;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

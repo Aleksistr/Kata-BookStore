@@ -1,0 +1,24 @@
+meta {
+  name: clearCart
+  type: http
+  seq: 4
+}
+
+delete {
+  url: http://localhost:8080/api/carts/:userId
+  body: none
+  auth: bearer
+}
+
+params:path {
+  userId: 1
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QHRlc3QuY29tIiwiaWF0IjoxNzYxNjQ5ODc2LCJleHAiOjE3NjE2NTM0NzZ9.B_Q3v9TCaGPqzKK1v_upxzZ6VY_-lY4r_r66ORNHdd8
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

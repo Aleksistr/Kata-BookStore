@@ -5,7 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1369ad3f-da46-416a-8e68-20786e58ac75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStoreOnlineBrunoCollection/BookController/searchBooks.bru" beforeDir="false" afterPath="$PROJECT_DIR$/BookStoreOnlineBrunoCollection/BookController/searchBooks.bru" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStoreOnlineBrunoCollection/BookController/searchBooksWithParam.bru" beforeDir="false" afterPath="$PROJECT_DIR$/BookStoreOnlineBrunoCollection/BookController/searchBooksWithParam.bru" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStoreOnlineBrunoCollection/RegistrationController/login-ok.bru" beforeDir="false" afterPath="$PROJECT_DIR$/BookStoreOnlineBrunoCollection/RegistrationController/login-ok.bru" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/DTO/AuthResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/DTO/responses/AuthResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/DTO/LoginRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/DTO/requests/LoginRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/DTO/RegisterRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/DTO/requests/RegisterRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/entities/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/entities/CartBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/entities/CartBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/exceptions/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/mappers/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/mappers/BookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/services/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/services/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/services/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/services/impl/AuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/services/impl/AuthServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/services/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/services/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bookstoreonlineback/BookStoreOnlieBackTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bookstoreonlineback/BookStoreOnlieBackTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bookstoreonlineback/controller/AuthControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bookstoreonlineback/controller/AuthControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bookstoreonlineback/controller/BookControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bookstoreonlineback/controller/BookControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/BookStoreOnlineBack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/DTO/AuthResponseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/DTO/BookDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/DTO/LoginRequestDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/DTO/RegisterRequestDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/controller/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/controller/BookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/entities/Author.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/entities/Book$BookBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/entities/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/entities/CartBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/entities/User$UserBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/entities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/mappers/BookMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/mappers/BookMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/reppositories/AuthorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/reppositories/BookRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/reppositories/CartBookRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/reppositories/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/security/CustomUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/security/JwtAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/security/JwtService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/security/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/security/SecurityConfigTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/services/AuthService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/services/AuthorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/services/BookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/services/CartBookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/services/impl/AuthServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/services/impl/AuthorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/services/impl/BookServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstoreonlineback/services/impl/CartBookServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/bookstoreonlineback/mappers/BookMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bookstoreonlineback/BookStoreOnlieBackTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bookstoreonlineback/controller/AuthControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bookstoreonlineback/controller/BookControllerTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +82,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Exception" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -23,6 +90,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -38,7 +108,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BookStoreOnlineBack.executor": "Run",
+    "JUnit.All in BookStoreBack.executor": "Run",
     "JUnit.AuthServiceTest.executor": "Run",
+    "JUnit.CartControllerTest.executor": "Run",
+    "JUnit.CartControllerTest.shouldAddBookToCart.executor": "Run",
     "JUnit.java in BookStoreBack.executor": "Run",
     "Maven.book-store-online-back [clean,install].executor": "Run",
     "Maven.bookstoreonlineback [clean,install].executor": "Run",
@@ -66,7 +139,6 @@
     <configuration name="BookStoreOnlineBack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="ms-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.bookstoreonlineback.BookStoreOnlineBack" />
       <module name="BookStoreBack" />
       <extension name="coverage">
@@ -79,17 +151,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in BookStoreBack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookStoreBack" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BookStoreBack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="com.bookstoreonlineback.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.AuthServiceTest" />
+      <option name="PACKAGE_NAME" value="com.bookstoreonlineback.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.bookstoreonlineback.controller.CartControllerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartControllerTest.shouldAddBookToCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookStoreBack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bookstoreonlineback.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bookstoreonlineback.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.bookstoreonlineback.controller.CartControllerTest" />
+      <option name="METHOD_NAME" value="shouldAddBookToCart" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,11 +198,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.BookStoreOnlineBack" />
+      <item itemvalue="JUnit.All in BookStoreBack" />
+      <item itemvalue="JUnit.CartControllerTest" />
+      <item itemvalue="JUnit.CartControllerTest.shouldAddBookToCart" />
+      <item itemvalue="JUnit.java in BookStoreBack" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.java in BookStoreBack" />
-        <item itemvalue="JUnit.AuthServiceTest" />
         <item itemvalue="Application.BookStoreOnlineBack" />
+        <item itemvalue="JUnit.All in BookStoreBack" />
+        <item itemvalue="JUnit.CartControllerTest.shouldAddBookToCart" />
+        <item itemvalue="JUnit.CartControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -124,13 +229,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/reppositories/BookRepository.java</url>
-          <line>20</line>
-          <properties class="com.bookstoreonlineback.reppositories.BookRepository" method="searchBooks">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bookstoreonlineback/reppositories/CartRepository.java</url>
+          <line>9</line>
+          <properties class="com.bookstoreonlineback.reppositories.CartRepository" method="findByUserId">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="23" />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

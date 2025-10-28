@@ -10,6 +10,6 @@ public interface BookMapper {
 
     @Mapping(source = "id", target = "id")
     @Mapping(source = "author.id", target="author_id")
-    BookDTO toBookDTO (Book book);
+    BookDTO toDto (Book book);
 
 }

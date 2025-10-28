@@ -24,7 +24,6 @@ public class User {
     String username;
     String password;
 
-    @Nullable
-    @OneToMany(mappedBy = "user")
-    List<CartBook> cartBooks;
+    @OneToOne(mappedBy = "user")
+    Cart cart;
 }

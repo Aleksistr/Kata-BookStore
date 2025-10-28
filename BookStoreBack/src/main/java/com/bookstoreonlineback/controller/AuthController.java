@@ -1,8 +1,8 @@
 package com.bookstoreonlineback.controller;
 
-import com.bookstoreonlineback.DTO.AuthResponseDTO;
-import com.bookstoreonlineback.DTO.LoginRequestDTO;
-import com.bookstoreonlineback.DTO.RegisterRequestDTO;
+import com.bookstoreonlineback.DTO.responses.AuthResponseDTO;
+import com.bookstoreonlineback.DTO.requests.LoginRequestDTO;
+import com.bookstoreonlineback.DTO.requests.RegisterRequestDTO;
 import com.bookstoreonlineback.services.AuthService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

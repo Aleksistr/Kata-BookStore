@@ -1,8 +1,7 @@
 package com.bookstoreonlineback.services.impl;
 
-import com.bookstoreonlineback.DTO.BookDTO;
 import com.bookstoreonlineback.entities.Book;
-import com.bookstoreonlineback.mappers.BookMapper;
+import com.bookstoreonlineback.exceptions.ResourceNotFoundException;
 import com.bookstoreonlineback.reppositories.BookRepository;
 import com.bookstoreonlineback.services.BookService;
 import lombok.RequiredArgsConstructor;
@@ -17,10 +16,14 @@ import org.springframework.stereotype.Service;
 public class BookServiceImpl implements BookService {
 
     private final BookRepository bookRepository;
-    private final BookMapper bookMapper;
 
     @Override
-    public Page<BookDTO> searchBooks(String name, Double minPrice, Double maxPrice, Pageable pageable) {
-        return bookRepository.searchBooks(name, minPrice, maxPrice, pageable).map(bookMapper::toBookDTO);
+    public Book getBookById(Long bookId) {
+        return bookRepository.findById(bookId).orElseThrow(() -> new ResourceNotFoundException("Book not found".concat(String.valueOf(bookId))));
+    }
+
+    @Override
+    public Page<Book> searchBooks(String name, Double minPrice, Double maxPrice, Pageable pageable) {
+        return bookRepository.searchBooks(name, minPrice, maxPrice, pageable);
     }
 }

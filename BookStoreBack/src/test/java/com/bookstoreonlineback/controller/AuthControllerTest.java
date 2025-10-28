@@ -1,7 +1,7 @@
 package com.bookstoreonlineback.controller;
 
-import com.bookstoreonlineback.DTO.LoginRequestDTO;
-import com.bookstoreonlineback.DTO.RegisterRequestDTO;
+import com.bookstoreonlineback.DTO.requests.LoginRequestDTO;
+import com.bookstoreonlineback.DTO.requests.RegisterRequestDTO;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +23,7 @@ class AuthControllerTest {
     @Autowired
     private MockMvc mockMvc;
 
-    private ObjectMapper objectMapper = new ObjectMapper();
+    private final ObjectMapper objectMapper = new ObjectMapper();
 
     @Test
     void testSignupSuccess() throws Exception {

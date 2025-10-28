@@ -1,0 +1,31 @@
+meta {
+  name: addItem
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/api/carts/:userId/items
+  body: json
+  auth: bearer
+}
+
+params:path {
+  userId: 1
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QHRlc3QuY29tIiwiaWF0IjoxNzYxNjU5MzEwLCJleHAiOjE3NjE2NjI5MTB9.KJBecymD5O0cI1xAfjsPjutizMcU3M19e1Rvbb21R0g
+}
+
+body:json {
+  {
+    "bookId": 1,
+    "quantity": 3
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

@@ -8,14 +8,14 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-10-27T23:40:24+0100",
+    date = "2025-10-28T11:56:31+0100",
     comments = "version: 1.6.3, compiler: javac, environment: Java 25 (Oracle Corporation)"
 )
 @Component
 public class BookMapperImpl implements BookMapper {
 
     @Override
-    public BookDTO toBookDTO(Book book) {
+    public BookDTO toDto(Book book) {
         if ( book == null ) {
             return null;
         }

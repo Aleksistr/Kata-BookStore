@@ -1,8 +1,8 @@
 package com.bookstoreonlineback.services;
 
-import com.bookstoreonlineback.DTO.AuthResponseDTO;
-import com.bookstoreonlineback.DTO.LoginRequestDTO;
-import com.bookstoreonlineback.DTO.RegisterRequestDTO;
+import com.bookstoreonlineback.DTO.responses.AuthResponseDTO;
+import com.bookstoreonlineback.DTO.requests.LoginRequestDTO;
+import com.bookstoreonlineback.DTO.requests.RegisterRequestDTO;
 
 public interface AuthService {
 
